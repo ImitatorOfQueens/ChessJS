@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.0",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ts-node": "^10.5.0"
+  },
+  "name": "chessjs",
+  "description": "Chess written in Javascript",
+  "version": "1.0.0",
+  "main": "src/game.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImitatorOfQueens/ChessJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImitatorOfQueens/ChessJS/issues"
+  },
+  "homepage": "https://github.com/ImitatorOfQueens/ChessJS#readme"
+}
